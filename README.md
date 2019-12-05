@@ -22,5 +22,5 @@ DESCRIPTION
   - Ruby 
 
 ## AUTHOR
-  - Legrand Jérémie :[Skewmos](https://github.com/Skewmos)
-  - Karim El-karroumy :[Thyvene](https://github.com/Thyvene)
+  - Legrand Jérémie : [Skewmos](https://github.com/Skewmos)
+  - Karim El-karroumy : [Thyvene](https://github.com/Thyvene)
