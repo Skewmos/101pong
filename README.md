@@ -18,9 +18,9 @@ DESCRIPTION
    z1 ball altitude at time t
    n time shift (greater than or equal to zero, integer)
 ```
-## Construit avec:
+## BUILD WITH
   - Ruby 
 
-## Auteurs
-  - Legrand Jérémie : [Skewmos] (https://github.com/Skewmos)
-  - Karim El-karroumy : [Thyvene] (https://github.com/Thyvene)
+## AUTHOR
+  - Legrand Jérémie :[Skewmos](https://github.com/Skewmos)
+  - Karim El-karroumy :[Thyvene](https://github.com/Thyvene)
