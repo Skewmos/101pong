@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+##
+## EPITECH PROJECT, 2019
+## 101pong.rb
+## File description:
+## Principal file of the project he starts the function of calculi
+## and calls the help function for help the user to use the function.
+## Created by Legrand Jérémie and karim el-karroumy
+##
+require './src/calcul.rb'
+require './src/error_handler.rb'
+
+if ARGV.first == "-h"
+  puts("USAGE \n ./101pong x0 y0 z0 x1 y1 z1 n")
+  puts("DESCRIPTION
+       x0 ball abscissa at time t - 1
+       y0 ball ordinate at time t - 1
+       z0 ball altitude at time t - 1
+       x1 ball abscissa at time t
+       y1 ball ordinate at time t
+       z1 ball altitude at time t
+       n time shift (greater than or equal to zero, integer)")
+end
+
+if ARGV[6].to_i < 0
+  exit(84)
+end
+
+if ARGV.count == 7
+  a = {"x" => ARGV[0], "y" => ARGV[1], "z" => ARGV[2]}
+  a.each_key { |key| a[key] = a[key].to_f}
+  b = {'x' => ARGV[3], 'y' => ARGV[4], 'z' => ARGV[5]}
+  b.each_key { |key|  b[key] = b[key].to_f}
+  n = ARGV[6].to_i
+ make_calcul(a, b, n)
+end
